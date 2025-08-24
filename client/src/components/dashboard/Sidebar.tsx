@@ -17,7 +17,7 @@ const Sidebar = () => {
   const pathname = location.pathname;
 
   return (
-    <div className="h-full hidden md:block bg-white dark:bg-gray-800 px-4 py-4 rounded-2xl w-1/6 space-y-4">
+    <div className="h-full hidden md:block bg-white dark:bg-gray-900 px-4 py-4 rounded-2xl w-1/6 space-y-4">
       <div className="px-2 flex items-center justify-between">
         <NavLink
           to="/"

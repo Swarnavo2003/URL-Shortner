@@ -12,7 +12,7 @@ const Links = () => {
   const { isPending, error } = useFetchLinks();
 
   return (
-    <div className="h-full bg-white dark:bg-gray-800 rounded-2xl flex-1 flex flex-col">
+    <div className="h-full bg-white dark:bg-gray-900 rounded-2xl flex-1 flex flex-col">
       <div className="flex items-center justify-between border-b border-gray-200 dark:border-gray-700 px-4 py-3 flex-shrink-0">
         <div className="flex items-center gap-2">
           <h1 className="text-lg font-semibold text-gray-900 dark:text-white">
