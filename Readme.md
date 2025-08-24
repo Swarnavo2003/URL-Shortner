@@ -17,10 +17,10 @@ Easily shorten long URLs and monitor how users interact with them.
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React / Next.js (or your frontend tech)
-- **Backend:** Node.js / Express (or your backend tech)
-- **Database:** MongoDB / PostgreSQL (or your DB)
-- **Others:** Socket.io (for real-time updates), Chart.js / Recharts (for analytics visualization)
+- **Frontend:** React, ShadcnUI
+- **Backend:** Node.js / Express
+- **Database:** MongoDB
+- **Others:** Socket.io (for real-time updates), Recharts (for analytics visualization)
 
 ---
 

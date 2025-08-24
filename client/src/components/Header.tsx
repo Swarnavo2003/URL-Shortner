@@ -3,7 +3,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
 import { useAppSelector } from "@/store/hooks";
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+import AuthButton from "./landing/AuthButton";
+import { ThemeToggleButton } from "./ThemeToggleButton";
 
 const menuItems = [
   { name: "Home", href: "/" },
@@ -58,10 +59,10 @@ const Header = () => {
 
               <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit lg:border-l lg:pl-6">
                 {user ? (
-                  <Avatar>
-                    <AvatarImage src={user.avatar?.url} />
-                    <AvatarFallback>{user.username?.charAt(0)}</AvatarFallback>
-                  </Avatar>
+                  <div className="flex items-center gap-2">
+                    <ThemeToggleButton />
+                    <AuthButton user={user} />
+                  </div>
                 ) : (
                   <>
                     <Button asChild variant="outline" size="sm">
